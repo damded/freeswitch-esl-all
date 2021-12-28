@@ -3,15 +3,15 @@ link:
     freeswitch:
       esl:
         inbound:
-          defaultPassword: ClueCon
+          defaultPassword: 1234
           performance: false
           performanceCostTime: 200
           servers:
             - host: 127.0.0.1
-              port: 8021
+              port: 5060
               timeoutSeconds: 5
             - host: 127.0.0.1
-              port: 8021
+              port: 5060
           events:
             - all
 #logging:
